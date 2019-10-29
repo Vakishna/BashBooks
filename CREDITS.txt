@@ -1,0 +1,5 @@
+CMake
+derekmolly.ie - http://derekmolloy.ie/hello-world-introductions-to-cmake/
+
+CMake Build and Environment Setup
+The Cherno (Setup C++ Linux Env) - https://www.youtube.com/watch?v=LKLuvoY6U0I

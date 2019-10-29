@@ -1,0 +1,13 @@
+# ninja log v5
+0	62	1572327765	CMakeFiles/bashbk.dir/src/Contacts.cpp.o	40d65b8eda240b1b
+0	64	1572327765	CMakeFiles/bashbk.dir/src/Purchases.cpp.o	53f49fcf63283cf
+62	82	1572327765	CMakeFiles/bashbk.dir/src/Sales.cpp.o	98e10242e67a48ff
+64	85	1572327765	CMakeFiles/bashbk.dir/src/Search.cpp.o	c98bdb3f954447c0
+82	114	1572327765	CMakeFiles/bashbk.dir/src/Banking.cpp.o	9b7667db557510e1
+89	115	1572327765	CMakeFiles/bashbk.dir/src/Account.cpp.o	640db7201b441038
+114	137	1572327765	CMakeFiles/bashbk.dir/src/Main.cpp.o	28f16d65d4d66e83
+115	141	1572327765	CMakeFiles/bashbk.dir/src/User.cpp.o	bc9d1d07b22182f9
+137	161	1572327766	CMakeFiles/bashbk.dir/src/To-Do.cpp.o	fe97430bbb86333e
+141	166	1572327766	CMakeFiles/bashbk.dir/src/Transactions.cpp.o	3a7f77192efcabe5
+0	150	1572327847	CMakeFiles/bashbk.dir/src/Main.cpp.o	28f16d65d4d66e83
+150	219	1572327847	bashbk	883a5ce5acec1def

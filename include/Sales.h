@@ -1,12 +1,12 @@
 #include <iostream>
 #include "Account.h"
-
+#include "Income.h"
 
 
 #ifndef SALES_H
 #define SALES_H
 
-class Sales {
+class Sales : public Account, public Income {
 
 
     public:

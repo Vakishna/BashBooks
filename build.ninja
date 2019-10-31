@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/vthayalan/BashBooks && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/vakishna/BashBooks && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -43,7 +43,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/vthayalan/BashBooks && /usr/bin/cmake -H/home/vthayalan/BashBooks -B/home/vthayalan/BashBooks
+  COMMAND = cd /home/vakishna/BashBooks && /usr/bin/cmake -H/home/vakishna/BashBooks -B/home/vakishna/BashBooks
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -51,38 +51,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Object build statements for EXECUTABLE target bashbk
 
-build CMakeFiles/bashbk.dir/src/Purchases.cpp.o: CXX_COMPILER__bashbk src/Purchases.cpp
-  DEP_FILE = CMakeFiles/bashbk.dir/src/Purchases.cpp.o.d
-  FLAGS = -g
-  INCLUDES = -Iinclude
-  OBJECT_DIR = CMakeFiles/bashbk.dir
-  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
 build CMakeFiles/bashbk.dir/src/Contacts.cpp.o: CXX_COMPILER__bashbk src/Contacts.cpp
   DEP_FILE = CMakeFiles/bashbk.dir/src/Contacts.cpp.o.d
-  FLAGS = -g
-  INCLUDES = -Iinclude
-  OBJECT_DIR = CMakeFiles/bashbk.dir
-  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
-build CMakeFiles/bashbk.dir/src/Sales.cpp.o: CXX_COMPILER__bashbk src/Sales.cpp
-  DEP_FILE = CMakeFiles/bashbk.dir/src/Sales.cpp.o.d
-  FLAGS = -g
-  INCLUDES = -Iinclude
-  OBJECT_DIR = CMakeFiles/bashbk.dir
-  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
-build CMakeFiles/bashbk.dir/src/Search.cpp.o: CXX_COMPILER__bashbk src/Search.cpp
-  DEP_FILE = CMakeFiles/bashbk.dir/src/Search.cpp.o.d
-  FLAGS = -g
-  INCLUDES = -Iinclude
-  OBJECT_DIR = CMakeFiles/bashbk.dir
-  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
-build CMakeFiles/bashbk.dir/src/Banking.cpp.o: CXX_COMPILER__bashbk src/Banking.cpp
-  DEP_FILE = CMakeFiles/bashbk.dir/src/Banking.cpp.o.d
-  FLAGS = -g
-  INCLUDES = -Iinclude
-  OBJECT_DIR = CMakeFiles/bashbk.dir
-  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
-build CMakeFiles/bashbk.dir/src/Account.cpp.o: CXX_COMPILER__bashbk src/Account.cpp
-  DEP_FILE = CMakeFiles/bashbk.dir/src/Account.cpp.o.d
   FLAGS = -g
   INCLUDES = -Iinclude
   OBJECT_DIR = CMakeFiles/bashbk.dir
@@ -99,8 +69,44 @@ build CMakeFiles/bashbk.dir/src/User.cpp.o: CXX_COMPILER__bashbk src/User.cpp
   INCLUDES = -Iinclude
   OBJECT_DIR = CMakeFiles/bashbk.dir
   OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
+build CMakeFiles/bashbk.dir/src/Purchases.cpp.o: CXX_COMPILER__bashbk src/Purchases.cpp
+  DEP_FILE = CMakeFiles/bashbk.dir/src/Purchases.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -Iinclude
+  OBJECT_DIR = CMakeFiles/bashbk.dir
+  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
+build CMakeFiles/bashbk.dir/src/Search.cpp.o: CXX_COMPILER__bashbk src/Search.cpp
+  DEP_FILE = CMakeFiles/bashbk.dir/src/Search.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -Iinclude
+  OBJECT_DIR = CMakeFiles/bashbk.dir
+  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
+build CMakeFiles/bashbk.dir/src/Asset.cpp.o: CXX_COMPILER__bashbk src/Asset.cpp
+  DEP_FILE = CMakeFiles/bashbk.dir/src/Asset.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -Iinclude
+  OBJECT_DIR = CMakeFiles/bashbk.dir
+  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
+build CMakeFiles/bashbk.dir/src/Sales.cpp.o: CXX_COMPILER__bashbk src/Sales.cpp
+  DEP_FILE = CMakeFiles/bashbk.dir/src/Sales.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -Iinclude
+  OBJECT_DIR = CMakeFiles/bashbk.dir
+  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
+build CMakeFiles/bashbk.dir/src/Account.cpp.o: CXX_COMPILER__bashbk src/Account.cpp
+  DEP_FILE = CMakeFiles/bashbk.dir/src/Account.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -Iinclude
+  OBJECT_DIR = CMakeFiles/bashbk.dir
+  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
 build CMakeFiles/bashbk.dir/src/To-Do.cpp.o: CXX_COMPILER__bashbk src/To-Do.cpp
   DEP_FILE = CMakeFiles/bashbk.dir/src/To-Do.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -Iinclude
+  OBJECT_DIR = CMakeFiles/bashbk.dir
+  OBJECT_FILE_DIR = CMakeFiles/bashbk.dir/src
+build CMakeFiles/bashbk.dir/src/Banking.cpp.o: CXX_COMPILER__bashbk src/Banking.cpp
+  DEP_FILE = CMakeFiles/bashbk.dir/src/Banking.cpp.o.d
   FLAGS = -g
   INCLUDES = -Iinclude
   OBJECT_DIR = CMakeFiles/bashbk.dir
@@ -119,7 +125,7 @@ build CMakeFiles/bashbk.dir/src/Transactions.cpp.o: CXX_COMPILER__bashbk src/Tra
 #############################################
 # Link the executable bashbk
 
-build bashbk: CXX_EXECUTABLE_LINKER__bashbk CMakeFiles/bashbk.dir/src/Purchases.cpp.o CMakeFiles/bashbk.dir/src/Contacts.cpp.o CMakeFiles/bashbk.dir/src/Sales.cpp.o CMakeFiles/bashbk.dir/src/Search.cpp.o CMakeFiles/bashbk.dir/src/Banking.cpp.o CMakeFiles/bashbk.dir/src/Account.cpp.o CMakeFiles/bashbk.dir/src/Main.cpp.o CMakeFiles/bashbk.dir/src/User.cpp.o CMakeFiles/bashbk.dir/src/To-Do.cpp.o CMakeFiles/bashbk.dir/src/Transactions.cpp.o
+build bashbk: CXX_EXECUTABLE_LINKER__bashbk CMakeFiles/bashbk.dir/src/Contacts.cpp.o CMakeFiles/bashbk.dir/src/Main.cpp.o CMakeFiles/bashbk.dir/src/User.cpp.o CMakeFiles/bashbk.dir/src/Purchases.cpp.o CMakeFiles/bashbk.dir/src/Search.cpp.o CMakeFiles/bashbk.dir/src/Asset.cpp.o CMakeFiles/bashbk.dir/src/Sales.cpp.o CMakeFiles/bashbk.dir/src/Account.cpp.o CMakeFiles/bashbk.dir/src/To-Do.cpp.o CMakeFiles/bashbk.dir/src/Banking.cpp.o CMakeFiles/bashbk.dir/src/Transactions.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/bashbk.dir
   POST_BUILD = :

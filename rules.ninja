@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__bashbk
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -H/home/vthayalan/BashBooks -B/home/vthayalan/BashBooks
+  command = /usr/bin/cmake -H/home/vakishna/BashBooks -B/home/vakishna/BashBooks
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /home/vthayalan/depot_tools/ninja -t clean
+  command = /bin/ninja -t clean
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /home/vthayalan/depot_tools/ninja -t targets
+  command = /bin/ninja -t targets
   description = All primary targets available:
 

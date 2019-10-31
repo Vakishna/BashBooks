@@ -11,6 +11,6 @@ class CostOfSales : public Account, public Expenses {
         CostOfSales();
     protected:
     private:
-        const char[3]* prefix = 'CoS_';
+        const char* prefix = 'CoS_';
 };
 #endif
